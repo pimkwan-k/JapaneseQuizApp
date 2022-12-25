@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { DataContext } from "../App";
 
+import './Menu.css'
+
 const Menu = () => {
     const { setAppState } = useContext(DataContext)
     return (

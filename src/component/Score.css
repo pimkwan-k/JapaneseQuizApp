@@ -1,0 +1,13 @@
+@media only screen and (max-width: 844px) {
+    .score{
+        max-width: 280px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .score h1{
+        font-size: 2.2rem;
+    }
+    .score h2{
+        font-size: 2.2rem;
+    }
+  }

@@ -2,6 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { DataContext } from "../App";
 import QuestionsData from "../data/QuestionsData";
 
+import './Quiz.css';
 
 const Quiz = () => {
     const [current, setCurrent] = useState(0)

@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { DataContext } from "../App";
 import QuestionsData from "../data/QuestionsData";
 
+import './Score.css';
+
 const Score = () => {
     const { score, setAppState, setScore } = useContext(DataContext);
 
